@@ -38,6 +38,7 @@ body > div.quadro > a > img{
     caret-color: transparent;
     margin: auto;
     display: inline-block;
+    height: auto;
     width: 100%;
     min-width: none;
 }
@@ -59,6 +60,7 @@ body > div.quadro > a > img.perfilfoto
     margin-bottom: 3%;
     border-radius: 30%;
     width: 100%;
+    height: auto;
     max-width: 200px;
     min-width: none;
 }
