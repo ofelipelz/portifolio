@@ -9,6 +9,7 @@ body{
     background-color: black;
 }
 div.quadro{
+    overflow: hidden;
     padding-top: 7%;
     background-color: black;
     width: 450px;
@@ -29,6 +30,7 @@ body > div.quadro > a > img{
     display: inline-block;
     width: 200px;
     max-width: 199px;
+    overflow: hidden;
 }
 body > div.quadro > div > a > img{
     padding: 0%;
