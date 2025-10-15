@@ -1,0 +1,83 @@
+@charset 'UTF-8';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+div.quadro{
+    padding-top: 7%;
+    background-color: black;
+    width: 450px;
+    max-width: 450px;
+    min-width: 200px;
+    margin: auto;
+}
+body > div.quadro > h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;  
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body > div.quadro > a > img{
+    padding: 0%;
+    margin: auto;
+    display: inline-block;
+    width: 200px;
+    max-width: 199px;
+}
+body > div.quadro > div > a > img{
+    padding: 0%;
+    margin: auto;
+    display: inline-block;
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+}
+body > div.quadro > a > img.perfilfoto
+{
+    display: block;
+    box-shadow: 0px 0px 7px #ffffff;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+    border-radius: 30%;
+    max-width: 150px;
+}
+.perfilfoto:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.perfilfoto:active{
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+body > div.quadro > div{
+    text-align: center;
+}
+body > div.quadro > div > a > img.instagramlogo{
+    padding: 0%;
+    margin: auto;
+    margin-top: 3%;
+}
+body > div.quadro > div > a > img.linkedinlogo{
+    padding: 0%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+body > div.quadro > div > a > img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+body > div.quadro > div > a > img:active{
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+
